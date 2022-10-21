@@ -6,7 +6,7 @@ interface Props {
     colors: string[];
 }
 
-export const Gradient = (props: Props) => {
+export const GradientBackground = (props: Props) => {
     const ref = useRef<HTMLDivElement | null>(null);
     const canvasId = `gradientCanvas${Math.random() * 1000}`;
 

@@ -1,2 +1,2 @@
-import { Gradient } from "./components/gradient";
-export { Gradient };
+import { GradientBackground } from "./components/gradientBackground";
+export { GradientBackground };
