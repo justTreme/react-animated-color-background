@@ -1,5 +1,5 @@
 {
-    "name": "react-animated-background",
+    "name": "react-animated-color-background",
     "version": "0.0.0",
     "main": "./dist/cjs/index.js",
     "module": "./dist/esm/index.js",
@@ -8,7 +8,7 @@
     "author": "Ferris Klingenberg (justTreme)",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/justTreme/react-animated-background"
+        "url": "git+https://github.com/justTreme/react-animated-color-background"
     },
     "scripts": {
         "build": "npm run build:esm && npm run build:cjs",
