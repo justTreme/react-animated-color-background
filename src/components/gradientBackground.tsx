@@ -1,6 +1,6 @@
 import MeshGradient from "mesh-gradient.js";
 import React, { useEffect, useRef } from "react";
-import {randomUUID} from "crypto";
+import { generateUUID } from "../utils/generate";
 
 interface Props {
     className?: string;
@@ -9,7 +9,7 @@ interface Props {
 
 export const GradientBackground = (props: Props) => {
     const ref = useRef<HTMLDivElement | null>(null);
-    const canvasId = `gradientCanvas${randomUUID()}`;
+    const canvasId = `gradientCanvas${generateUUID()}`;
 
     useEffect(() => {
         let interval: NodeJS.Timer;
