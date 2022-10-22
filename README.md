@@ -18,8 +18,10 @@ Then import the `motion` component:
 ```jsx
 import { GradientBackground } from "react-animated-color-background"
 
-export const MyComponent = ({ isVisible }) => (
-    <GradientBackground colors={["#111111", "#222222", "#333333", "#444444"]} className={"class"}/>
+export const MyComponent = () => (
+    <div style={{width: 600, height: 400}}>
+        <GradientBackground colors={["#111111", "#222222", "#333333", "#444444"]} className={"class"}/>
+    </div>
 )
 ```
 
