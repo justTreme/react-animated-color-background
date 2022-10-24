@@ -33,4 +33,4 @@ The `colors` prop can have up to 4 colors.
 
 ### 👩🏻‍⚖️ License
 
-- Framer Motion is MIT licensed.
+- react-animated-color-background is MIT licensed.
