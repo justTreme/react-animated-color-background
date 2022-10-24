@@ -13,7 +13,7 @@ Install `react-animated-color-background` with via your package manager:
 npm install react-animated-color-background
 ```
 
-Then import the `motion` component:
+Then import the `GradientBackground` component:
 
 ```jsx
 import { GradientBackground } from "react-animated-color-background"
