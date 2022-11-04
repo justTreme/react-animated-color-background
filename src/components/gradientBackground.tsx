@@ -5,6 +5,7 @@ import { generateUUID } from "../utils/generate";
 interface Props {
     className?: string;
     colors: string[];
+    lowPerformance?: boolean
 }
 
 export const GradientBackground = (props: Props) => {
@@ -40,7 +41,7 @@ export const GradientBackground = (props: Props) => {
             className={props.className}
             style={{ overflow: "hidden" }}
         >
-            <canvas id={canvasId} style={{ filter: "blur(5rem)" }} />
+            <canvas id={canvasId} style={{ filter: !props.lowPerformance ? "blur(5rem)" : undefined }} />
         </div>
     );
 };
